@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>form tag</title>
+</head>
+<body>
+    <center>
+        <img src="./images/images/tel logo.png" alt="logo" width="200">
+    </center>
+    <center><h1>TELANGANA STATE BOARD TRANSPORT CORPORATION</h1>
+            <h2>GENERAL BUS PASS APPLICATION</h2>
+    </center>
+    
+    <form>
+        <fieldset>
+        <legend> Application Details </legend>
+           <label for="name">Name:</label>                                                           
+        <input type="text" name="name" id="name" maxlength="4" minlength="4"  placeholder="enter Name">
+        &nbsp &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp                    
+        <label for="Guardian Name"> Guardian Name:</label>
+        <input type="text" name=" Guardian name" id=" Guardian name" maxlength="4" minlength="4"  placeholder=" Enter father name"> 
+        <br>
+        <br>
+        <label for="Date of Birth"> Date of birth:</label>
+        <input type="text" name="Date of Birth" id="DOB"  placeholder="enter DOB">
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <label for="Gender"> Gender: </label>
+        <label for="Male"> Male</label>
+        <input type="radio" name="Gender" id="Male" value=" male"Required>
+        <label for="Female"> Female </label>
+        <input type="radio" name="Gender" id="Female" value=" Female"Required>
+        <br>
+        <br>
+        <label for="whatsup"> whatsup number:  </label> 
+        <input type="text" name="number" placeholder="enter mobile number" title="+91[9876]\d" required>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <label for="Aadhar Number"> Aadhar number: </label>
+        <input type="text" name="Number" id=" Enter number" value="Aadhar number" placeholder="" required>
+        <br>
+        <br>
+        <label for="Photo"> Photo</label>
+        <input type="file" name="Photo" id="Photo" value="choose file"Required>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <label for="Email"> Email:  </label> 
+        <input type="text" name="Email" placeholder="enter Email" title="\d" required minlength="12" maxlength="12">
+        </fieldset>
+
+     <fieldset>
+        <legend>RESIDENTIAL ADDRESS </legend>
+        <label for="Applicant's address"> Address:</label>
+        <input type="text" name="Address" id="Address"  placeholder="Enter address" maxlength="20" minlength="20">
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <label for="District"> District:</label>
+        <select name="District" id="District">
+            <option>Hyderabad </option>
+        </select>
+        <br>
+        <br>
+        <label for="Mandal"> Mandal:</label>
+          <select name="Mandal" id="Mandal">
+            <option>Hyderabad </option>
+        </select>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <label for="Village"> Village:</label>
+        <select name="village" id="Village">
+            <option >hyderabad</option>
+        </select>
+        <br>
+        <br>
+        <label for="Pincode"> Pincode:</label>
+        <input type="text" name="Pincode" id="Pincode"  placeholder=" Enter pincode">
+        </fieldset>
+        <center><img src="./images/images/capcha.png" alt="capcha" width="150"> <br><br>
+        <input type="capcha" id="capcha" minlength="6" maxlength="6" placeholder="Enter capcha"><br><br>
+    <input type="submit" name="submit" id="submit"></center>
+    </form>
+
+
+    </table>
+</body>
+</html>
